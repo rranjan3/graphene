@@ -26,8 +26,7 @@ RUN apt-get update && env DEBIAN_FRONTEND=noninteractive apt-get install -y \
     net-tools \
     protobuf-c-compiler \
     python \
-    python-numpy \
-    python-scipy \
+    python3-apport \
     python3-apt \
     python3-breathe \
     python3-lxml \

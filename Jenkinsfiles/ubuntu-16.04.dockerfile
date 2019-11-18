@@ -26,8 +26,7 @@ RUN apt-get update \
        net-tools \
        protobuf-c-compiler \
        python \
-       python-numpy \
-       python-scipy \
+       python3-apport \
        python3-apt \
        python3-lxml \
        python3-minimal \
