@@ -646,7 +646,12 @@ def generate_measurement(attr, areas):
             print_area(area.addr, area.size, area.flags, area.desc,
                        area.measure)
 
-    return mrenclave.digest()
+    print_mrenclave =  mrenclave.digest()
+    print("============================================================")
+    print(print_mrenclave)
+    print("============================================================")
+
+    return print_mrenclave
 
 
 def generate_sigstruct(attr, args, mrenclave):
